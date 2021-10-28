@@ -1,0 +1,62 @@
+body{
+    background-image: url(../img/preto.png);
+}
+
+#topo{
+    user-select: none;
+    transition: font-size 5s;
+    font-size : 100px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: #000; /* cor da borda */
+    color: rgb(0, 195, 255);
+
+    animation: cor 5s linear infinite;
+}
+#topo:hover{
+    font-size: 101px;
+}
+
+
+/* Aqui definimos a nossa animação com o nome "rotate" */
+@keyframes cor {
+    from {
+        color:rgb(255, 255, 255);
+    }
+    50%{
+        color:turquoise;
+    }
+    to{
+        color:rgb(255, 255, 255);
+    }}
+
+
+#formulario-pergunta{
+    margin-top: 15vh;
+}
+#teste{
+    width: 10000;
+    height: 10000px;
+  
+}
+h3{
+    color: rgb(248, 248, 248);
+    font-size: 150%;
+}
+hr{
+    background-color: blueviolet;
+}
+h1{
+    color:rgb(0, 255, 221);
+}
+h4{
+    color:rgb(125, 174, 253);
+    
+}
+.cardbody{
+    background-color: rgb(23, 26, 70);
+
+}
+.card-footer{
+    background-color: rgba(1, 196, 255, 0.986);
+}
